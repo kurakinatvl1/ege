@@ -44,7 +44,7 @@
 # for i in l:
 #     i = l.index(i)
 #     if l.count(l[i])>1:
-#         l.remove(l[i])
+#         l.pop(i)
 # l.reverse()
 # print(l)
 
