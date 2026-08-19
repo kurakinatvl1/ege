@@ -40,11 +40,11 @@
 
 # s3 = s1.difference(s2) # выводит уникальные для s1 элементы, который нет в s2
 # s1.difference_update(s2) # (изменяет сам обьект)
+# s1 - s2
 # print(s3,s1)
 #
 # s3 = s1.symmetric_difference(s2) # все за исключением пересечения, симметрическая разность
 # s1.symmetric_difference_update(s2)
-# s1 - s2
 # print(s3)
 # //
 
