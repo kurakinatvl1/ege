@@ -46,14 +46,16 @@
 # to_binary(0) -> '00000000'
 # to_binary(-3) -> 'Только неотрицательные числа'
 
-# def  to_binary(n, width=8):
-#     if n < 0:
-#         return 'Только неотрицательные числа'
-#     res = bin(n)[2:]
-#     if len(res) < width:
-#         res += '0'*(width - len(res))
-#     return res
-# print(to_binary(10,4))
+def  to_binary(n, width=8):
+    if n < 0:
+        return 'Только неотрицательные числа'
+    res = bin(n)[2:]
+    b = 0
+    if len(res) < width:
+        b = (width - len(res))
+    d = '0'*b + res
+    return d
+print(to_binary(5))
 
 
 
